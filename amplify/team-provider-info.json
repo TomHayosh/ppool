@@ -1,0 +1,45 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifybbbe4e0d2b6b4-staging-195215-authRole",
+      "UnauthRoleArn": "arn:aws:iam::176207834191:role/amplify-amplifybbbe4e0d2b6b4-staging-195215-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::176207834191:role/amplify-amplifybbbe4e0d2b6b4-staging-195215-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplifybbbe4e0d2b6b4-staging-195215-deployment",
+      "UnauthRoleName": "amplify-amplifybbbe4e0d2b6b4-staging-195215-unauthRole",
+      "StackName": "amplify-amplifybbbe4e0d2b6b4-staging-195215",
+      "StackId": "arn:aws:cloudformation:us-east-2:176207834191:stack/amplify-amplifybbbe4e0d2b6b4-staging-195215/40759e20-b24d-11ee-b597-06c04e21793d",
+      "AmplifyAppId": "d39l0pyq2u8y1e",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifybbbe4e0d2b6b4-staging-195215-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "ppoollambda": {
+          "deploymentBucketName": "amplify-amplifybbbe4e0d2b6b4-staging-195215-deployment",
+          "s3Key": "amplify-builds/ppoollambda-72647454462b63504d36-build.zip"
+        }
+      },
+      "auth": {
+        "ppool1f0b37d3": {
+          "userPoolId": "us-east-2_0dKXPwp5a",
+          "userPoolName": "playoff_pool_userpool_d613df10-devppool",
+          "webClientId": "56ivil1e6oj8a8d6m8d7d8vcdn",
+          "nativeClientId": "2q4raehnkclhd2ihfr3r3at1ce",
+          "identityPoolId": "us-east-2:98649c0a-a602-44e4-b1b4-a9eb0b344450",
+          "identityPoolName": "playoff_pool_identitypool_d613df10__devppool",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::176207834191:role/amplify-playoff-pool-devppool-92657-authRole",
+          "authRoleName": "amplify-playoff-pool-devppool-92657-authRole",
+          "unauthRoleArn": "arn:aws:iam::176207834191:role/amplify-playoff-pool-devppool-92657-unauthRole",
+          "unauthRoleName": "amplify-playoff-pool-devppool-92657-unauthRole"
+        }
+      },
+      "storage": {
+        "ppooldb": {}
+      },
+      "api": {
+        "ppoolapi": {}
+      }
+    }
+  }
+}
